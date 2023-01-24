@@ -1,5 +1,5 @@
-console.time('TIME');
 function res() {
+  console.time('TIME');
   const sum = 1000;
   let a = 1;
   let b = 0;
@@ -11,7 +11,7 @@ function res() {
       }
     }
   }
+  console.timeEnd('TIME');
 }
 
 res();
-console.timeEnd('TIME');
